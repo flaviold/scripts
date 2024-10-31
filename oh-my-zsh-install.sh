@@ -8,14 +8,6 @@ else
   echo "zsh version: $(zsh --version)"
 fi
 
-# Set zsh as default
-if [ "$SHELL" = "$(which zsh)" ]; then
-  echo "zsh is the default shell!"
-else
-  echo "Setting zsh as the default shell!"
-  chsh -s $(which zsh)
-fi
-
 # Oh My Zsh install
 if [ -d "~/.oh-my-zsh" ]
 then
@@ -24,3 +16,6 @@ else
     echo "Installing Oh My Zsh!"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+echo "Setup completed!"
+echo "Run 'chsh -s \$(which zsh)' to set zsh as default!"
