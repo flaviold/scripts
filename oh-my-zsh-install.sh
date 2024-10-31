@@ -13,7 +13,7 @@ if [ "$SHELL" = "$(which zsh)" ]; then
   echo "zsh is the default shell!"
 else
   echo "Setting zsh as the default shell!"
-  sudo chsh -s $(which zsh)
+  chsh -s $(which zsh)
 fi
 
 # Oh My Zsh install
