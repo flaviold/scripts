@@ -24,5 +24,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 echo "Setup completed!"
 echo "Run 'chsh -s \$(which zsh)' to set zsh as default!"
-
-zsh
