@@ -11,7 +11,7 @@ else
 fi
 
 # LazyVim install
-if [ -d "~/.config/nvim" ]
+if [ -d ~/.config/nvim ]
 then
     echo "LazyVim installed!"
 else
