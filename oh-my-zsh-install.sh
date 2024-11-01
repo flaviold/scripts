@@ -17,5 +17,9 @@ else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
+curl https://raw.githubusercontent.com/flaviold/scripts/refs/heads/oh-my-zsh/src/.zshrc -o ~/.zshrc
+
 echo "Setup completed!"
 echo "Run 'chsh -s \$(which zsh)' to set zsh as default!"
+
+zsh
