@@ -22,4 +22,5 @@ curl https://raw.githubusercontent.com/flaviold/scripts/refs/heads/oh-my-zsh/src
 echo "Setup completed!"
 echo "Run 'chsh -s \$(which zsh)' to set zsh as default!"
 
-zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
