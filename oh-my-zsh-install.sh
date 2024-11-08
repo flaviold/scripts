@@ -23,7 +23,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
-curl https://raw.githubusercontent.com/flaviold/scripts/refs/heads/oh-my-zsh/src/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/flaviold/scripts/refs/heads/main/src/.zshrc > ~/.zshrc
 
 echo "Setup completed!"
 echo "Run 'chsh -s \$(which zsh)' to set zsh as default!"
